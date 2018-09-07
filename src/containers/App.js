@@ -18,7 +18,7 @@ class App extends Component {
   handleSearchInput = async (e) => {
     const targetUser = e.target.value;
     const client_id = 'fd909aff2e512dc8b9bf';
-    const client_secret = 'c7fe5b60ef39efd793512d2e9aa6644712237d27';
+    const client_secret = 'KEY';
     const repos_count = 3;
     const repos_sort = 'created: asc';
     
