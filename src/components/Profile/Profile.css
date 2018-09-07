@@ -1,0 +1,133 @@
+.Profile {
+  max-width: 1100px;
+  width: 100%;
+  margin: 10px auto;
+  padding: 15px;
+}
+
+.Profile::after,
+.Profile::before {
+  clear: both;
+  overflow: auto;
+}
+
+.Profile .left_bar {
+  width: 300px;
+  float: left;
+}
+
+.Profile figure {
+  margin: 0;
+  width: 300px;
+  height: 300px;
+  border-radius: 3px;
+  box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.75);
+  -moz-box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.75);
+  -webkit-box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.75);
+}
+
+.Profile__image {
+  width: 300px;
+  border-radius: 3px;
+}
+
+.badge {
+  width: 80%;
+  text-align: center;
+  display: block;
+  margin: 15px auto 0 auto;
+  font-family: 'Dosis', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  padding: 7px 0;
+  color: #fff;
+  border-radius: 3px;
+}
+
+.badgeDefault {
+  background: #348AA7;
+}
+
+.badgeSuccess {
+  background: #5DD39E;
+}
+
+.badgePrimary {
+  background: #BCE784;
+}
+
+.badgeWarning {
+  background: #525174;
+}
+
+.Profile .view_profile {
+  display: block;
+  width: 100%;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-align: center;
+  text-decoration: none;
+  padding: 15px 0;
+  background: #F45B69;
+  color: #fff;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  border-radius: 3px;
+  box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.75);
+  -moz-box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.75);
+  -webkit-box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.75);
+  transition: box-shadow .3s ease-in-out;
+}
+
+.Profile .view_profile:hover {
+  box-shadow: none;
+}
+
+.Profile .right_bar {
+  float: left;
+  max-width: 700px;
+}
+
+.Clear {
+  overflow: auto;
+}
+
+.Profile .right_bar ul {
+  margin: 0 0 0 25px;
+  padding: 10px;
+  list-style: none;
+  list-style-type: none;
+  border: 1px solid #333;
+  border-radius: 3px;
+}
+
+.Profile .right_bar ul li {
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+.Profile .right_bar ul li:not(:last-child) {
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #111;
+  width: 100%;
+}
+
+.Profile .right_bar ul li > span {
+  font-weight: 700;
+}
+
+.NotFound {
+  width: 400px;
+  margin: 0 auto;
+  display: block;
+  background: #CE081C;
+  text-align: center;
+  color: white;
+  padding: 10px 0;
+  border-radius: 3px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  margin-bottom: 40px;
+}
